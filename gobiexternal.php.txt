@@ -1,0 +1,12 @@
+<?php
+
+$user=$_POST['Name'];
+$emailid=$_POST['Email'];
+$subjects=$_POST['PSW'];
+$obj=new mysqli("localhost","root","","dbgobi");
+$sql="insert into contactus(Username,EMail,Review) values('$user','$emailid','$subjects')";
+
+$obj->query($sql);
+?>
+gobiexternal.php
+Displaying gobiexternal.php.

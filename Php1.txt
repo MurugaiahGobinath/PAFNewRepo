@@ -1,0 +1,17 @@
+<div class="form">
+<form method="post" action="check1.php">
+<h1><b>login</b></h1>
+<h3>carrental system</h3>
+
+<h4>E-MAIL</h4>
+<input type="text" id="email" name="umail" size="30" maxlength="20"/>
+<h4>PASSWORD</h4>
+<input type="password" id="password" name="upass" size="30" maxlength="20"/>
+<h4>
+    <input type="checkbox" name="showpass" onclick="func()">showpassword
+</h4><br>
+    <button type="submit" value="submit" onclick="func()";><b>submit</b>h4</button>
+    <h4>Don't have an account&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="sign up.html">Sign up</a>&nbsp;&nbsp;&nbsp;
+    <span class="psw"><a href="#">Forgot Password</a></span></h4>
+</form>
